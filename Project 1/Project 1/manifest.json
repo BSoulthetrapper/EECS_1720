@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+   
+    "name": "Notes for web browser",
+    "description": "Simple memo while reading",
+    "version": "1.0",
+   
+    "browser_action": {
+      "default_icon": "book.png",
+      "default_popup": "popup.html"
+    },
+    "permissions": [
+      "activeTab",
+      "storage"
+    ]
+  }
+  
